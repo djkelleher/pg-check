@@ -1,0 +1,1 @@
+Check for mismatched attributes between SQLAlchemy tables/models and actual tables in a database. See [inline docs](./pg_check/__init__.py).

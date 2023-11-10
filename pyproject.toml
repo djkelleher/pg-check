@@ -1,0 +1,12 @@
+[project]
+name = "pg-check"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Dan Kelleher", email = "kelleherjdan@gmail.com" }]
+readme = "README.md"
+
+dependencies = ["ezloggers", "pydantic>=2.0.0"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
