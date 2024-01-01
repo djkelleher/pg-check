@@ -7,6 +7,9 @@ readme = "README.md"
 
 dependencies = ["ezloggers", "pydantic>=2.0.0"]
 
+[project.optional-dependencies]
+dev = ["black", "pytest"]
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
